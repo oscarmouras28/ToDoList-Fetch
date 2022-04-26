@@ -46,7 +46,12 @@ export function App() {
             <div className="container">
                 <div className="input-group mb-3">
                     <a onClick={addToDo}><span className="input-group-text" id="basic-addon1">✏️+</span></a>
-                    <input ref={ToDoRef} type="text" className="form-control" placeholder="Ingresar Tarea" aria-label="Username" aria-describedby="basic-addon1" />
+                    <input ref={ToDoRef} type="text"
+                        className="form-control"
+                        placeholder="Ingresar Tarea"
+                        aria-label="Username"
+                        aria-describedby="basic-addon1"
+                    />
                 </div>
                 <div class="d-grid gap-2">
                     <button onClick={ReadToDo} class="btn btn-success">Listar</button>
